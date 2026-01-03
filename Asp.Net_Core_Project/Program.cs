@@ -14,6 +14,12 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+//To add static files
+//app.UseStaticFiles();
+
+//To use default files
+//app.UseDefaultFiles();
+
 app.UseHttpsRedirection();
 app.UseRouting();
 
