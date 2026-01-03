@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mayank\\Desktop\\Asp.Net_Core_Project\\Asp.Net_Core_Project\\Asp.Net_Core_Project.csproj": {}
+    "C:\\Users\\mayan\\Desktop\\Asp.Net_Core_Project\\Asp.Net_Core_Project\\Asp.Net_Core_Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mayank\\Desktop\\Asp.Net_Core_Project\\Asp.Net_Core_Project\\Asp.Net_Core_Project.csproj": {
+    "C:\\Users\\mayan\\Desktop\\Asp.Net_Core_Project\\Asp.Net_Core_Project\\Asp.Net_Core_Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mayank\\Desktop\\Asp.Net_Core_Project\\Asp.Net_Core_Project\\Asp.Net_Core_Project.csproj",
+        "projectUniqueName": "C:\\Users\\mayan\\Desktop\\Asp.Net_Core_Project\\Asp.Net_Core_Project\\Asp.Net_Core_Project.csproj",
         "projectName": "Asp.Net_Core_Project",
-        "projectPath": "C:\\Users\\Mayank\\Desktop\\Asp.Net_Core_Project\\Asp.Net_Core_Project\\Asp.Net_Core_Project.csproj",
-        "packagesPath": "C:\\Users\\Mayank\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mayank\\Desktop\\Asp.Net_Core_Project\\Asp.Net_Core_Project\\obj\\",
+        "projectPath": "C:\\Users\\mayan\\Desktop\\Asp.Net_Core_Project\\Asp.Net_Core_Project\\Asp.Net_Core_Project.csproj",
+        "packagesPath": "C:\\Users\\mayan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mayan\\Desktop\\Asp.Net_Core_Project\\Asp.Net_Core_Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mayank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mayan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
