@@ -13,6 +13,7 @@ namespace Asp.Net_Core_Project.Controllers
 
         //Here we are injecting dependency
         // We are inject IEmployeeRepository in HomeController class using its constructor it's known as contructor injection
+        // HomeController have a dependency on IEmployeeRepository service , so this service is injected into HomeController using HomeController Constructor
         public HomeController(IEmployeeRepository employeeRepository)
         {
             _employeeRepository = employeeRepository;
