@@ -6,6 +6,14 @@ namespace Asp.Net_Core_Project.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly IEmployeeRepository _employeeRepository;
+        
+        //Here we are injecting dependency
+        public HomeController(IEmployeeRepository employeeRepository)
+        {
+            _employeeRepository = employeeRepository;
+            
+        }
         public IActionResult Index()
         {
             return View();
@@ -20,6 +28,11 @@ namespace Asp.Net_Core_Project.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        public string GetEmployeeDataMethod()
+        {
+            return _employeeRepository.GetEmployee(10).Name;
         }
     }
 }

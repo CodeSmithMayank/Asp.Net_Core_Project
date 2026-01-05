@@ -96,3 +96,4 @@ C:\Users\Mayank\Desktop\Asp.Net_Core_Project\Asp.Net_Core_Project\obj\Debug\net1
 C:\Users\Mayank\Desktop\Asp.Net_Core_Project\Asp.Net_Core_Project\obj\Debug\net10.0\Asp.Net_Core_Project.pdb
 C:\Users\Mayank\Desktop\Asp.Net_Core_Project\Asp.Net_Core_Project\obj\Debug\net10.0\Asp.Net_Core_Project.genruntimeconfig.cache
 C:\Users\Mayank\Desktop\Asp.Net_Core_Project\Asp.Net_Core_Project\obj\Debug\net10.0\ref\Asp.Net_Core_Project.dll
+C:\Users\Mayank\Desktop\Asp.Net_Core_Project\Asp.Net_Core_Project\obj\Debug\net10.0\Asp.Net_Core_Project.sourcelink.json
