@@ -6,13 +6,20 @@ namespace Asp.Net_Core_Project.Controllers
 {
     public class HomeController : Controller
     {
+        //This HomeController is not creating an instance of IEmployeeRepository using new keyword
+
+
         private readonly IEmployeeRepository _employeeRepository;
-        
+
         //Here we are injecting dependency
+        // We are inject IEmployeeRepository in HomeController class using its constructor it's known as contructor injection
         public HomeController(IEmployeeRepository employeeRepository)
         {
             _employeeRepository = employeeRepository;
-            
+            //This we are not doing because it completely depends on this class , may be later on we have multiple class then it will an issue
+            //_employeeRepository = new MockEmployeeRepository();
+
+
         }
         public IActionResult Index()
         {
