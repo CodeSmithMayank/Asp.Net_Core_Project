@@ -1,6 +1,9 @@
 // From where programs starts
 var builder = WebApplication.CreateBuilder(args);
 
+//This we are using becuase to add all required mvc services to a dependency injection container
+builder.Services.AddMvc();
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
@@ -27,6 +30,9 @@ app.UseAuthorization();
 
 app.MapStaticAssets();
 
+// Mvc middleware to configure request which comes through pipeline , this means it will go to by default controller which is Home & Index is method inside it
+// One of the main important thing request comes through each middleware and execure through specific middleware and return from there only
+//app.UseMvcWithDefaultRoute();
 
 app.MapControllerRoute(
     name: "default",
