@@ -5745,20 +5745,16 @@ da6f6f6f2828282828285b5b5b5757572828282828282828282828282828282828282828282828
 -> Asp.net core application initially starts as a console application\par
 -> When applications runs so for first it look for Main method which is inside program.cs file in which some configuration were also there & that convert our console application into web app\par
 \par
-\cf1\b Lecture :- ( ASP NET Core in process hosting )\par
-\cf0 CreateDefaultBuilder() method :-\par
-\b0 -> this method setup the webhost that host our application with preconfigured defaults\par
--> These are the task perform by this createdefaultbuilder() method\par
-1. Setting up the web server\par
-2. Loading the host & application configuration from various configuration sources\par
-3. Configuring logging\par
+\cf1\b Lecture :- ( ASP NET Core environment variables )\par
+\cf0\b0 There are three common enviornment variable :-\par
+-> Development\par
+-> Staging\par
+-> Production ( In this non-minified files will get load which are of styling )\par
+These enviornment are basically to handle technical details & other things too for handling errors\par
+-> There's Asp.Net_Core_Enviornment in launchsetting.json file or u can set globally inside control pannel too if some other enviornment variable is there\par
+-> If we have setted value of Asp.NetCore_Enviornment in both launchsetting.json file & through control pannel too then value of control pannel will get override\par
 \par
--> Asp.net core application can be hosted on :- \par
-1. InProcess\par
-2. OutProcess\par
 \par
-\b InProcess Hosting :-\par
-\b0\par
 \par
 \par
 \par
