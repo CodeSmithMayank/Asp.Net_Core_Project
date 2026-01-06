@@ -38,9 +38,11 @@ namespace Asp.Net_Core_Project.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        public string GetEmployeeDataMethod()
+        public ViewResult GetEmployeeDataMethod()
         {
-            return _employeeRepository.GetEmployee(10).Name;
+            Employee obj = _employeeRepository.GetEmployee(10);
+            //this we are using because it's provided by base Controller class which is availiable for this HomeController
+            return View(obj);
         }
     }
 }
