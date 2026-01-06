@@ -41,6 +41,8 @@ namespace Asp.Net_Core_Project.Controllers
         public ViewResult GetEmployeeDataMethod()
         {
             Employee obj = _employeeRepository.GetEmployee(10);
+            ViewData["EmpData"] = obj;
+            ViewData["pagetitle"] = "Employee Details";
             //this we are using because it's provided by base Controller class which is availiable for this HomeController
             return View(obj);
 

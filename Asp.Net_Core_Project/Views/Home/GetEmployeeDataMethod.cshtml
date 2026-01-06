@@ -1,1 +1,17 @@
-﻿<h1>GetEmployeeDataMethod.cshtml from views folder</h1>
+﻿@*This we used to access data through viewdata*@
+<h1>@ViewData["pagetitle"]</h1>
+
+@*To use blocker C# Code & this viewdata stores string value*@
+@{
+    /*as Asp.Net_Core_Project.Models.Employee we have done to access the employee model properties*/
+    var empldata = ViewData["EmpData"] as Asp.Net_Core_Project.Models.Employee;
+}
+<div>
+    Name : @empldata.Name;
+</div>
+<div>
+    Email : @empldata.Email;
+</div>
+<div>
+    Department : @empldata.Department;
+</div>
