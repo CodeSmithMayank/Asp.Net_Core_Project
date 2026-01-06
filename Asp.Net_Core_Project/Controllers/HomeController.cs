@@ -45,7 +45,7 @@ namespace Asp.Net_Core_Project.Controllers
             ViewData["pagetitle"] = "Employee Details";
             ViewBag.P1 = "This is a view of GetEmployeeDataMethod";
             //this we are using because it's provided by base Controller class which is availiable for this HomeController
-            return View(obj);
+            //return View(obj);
 
             //If We have inside Views folder only & of same methodname
             //return View("Test");
@@ -55,6 +55,10 @@ namespace Asp.Net_Core_Project.Controllers
             //return View("MyViews/myview.cshtml");
 
             //return View("../MyViews/myview.cshtml"); ( Here this .means take up at one level in heirarchy ) ( no of times u have to mentioned . , no of levels u wanna up )
+
+            // To use strongly type view
+            return View(obj);
+
 
         }
     }
