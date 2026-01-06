@@ -1,5 +1,8 @@
 ﻿@*To uSe strongly type view*@
-@model Asp.Net_Core_Project.Models.Employee;
+@* @model Asp.Net_Core_Project.Models.Employee; *@
+
+@model Asp.Net_Core_Project.ViewModel.HomeDetailsViewModel;
+
 
 @*This we used to access data through viewdata*@
 <h1>@ViewData["pagetitle"]</h1>
@@ -25,4 +28,6 @@
 
 @*Using strongly type view*@
 <h1>Using Strongly type view</h1>
-<div>@Model.Name</div>
+@* <div>@Model.Name</div> *@
+
+<div>Page Tile Getting using viewmodel :  @Model.pagetitle</div>

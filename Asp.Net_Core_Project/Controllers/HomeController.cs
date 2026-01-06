@@ -1,6 +1,7 @@
-using System.Diagnostics;
 using Asp.Net_Core_Project.Models;
+using Asp.Net_Core_Project.ViewModel;
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 
 namespace Asp.Net_Core_Project.Controllers
 {
@@ -57,7 +58,14 @@ namespace Asp.Net_Core_Project.Controllers
             //return View("../MyViews/myview.cshtml"); ( Here this .means take up at one level in heirarchy ) ( no of times u have to mentioned . , no of levels u wanna up )
 
             // To use strongly type view
-            return View(obj);
+
+
+            //View Model
+            HomeDetailsViewModel obs = new HomeDetailsViewModel();
+            obs.emp = obj;
+            obs.pagetitle = "New Title of this view model";
+
+            return View(obs);
 
 
         }
