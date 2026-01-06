@@ -19,5 +19,10 @@
         {
             return _employeelist.Where(S=>S.Id == id).FirstOrDefault();
         }
+
+        public Employee GetAllEmployeData()
+        {
+            return _employeelist.FirstOrDefault();
+        }
     }
 }
