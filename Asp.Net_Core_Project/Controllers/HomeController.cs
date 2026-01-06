@@ -43,6 +43,16 @@ namespace Asp.Net_Core_Project.Controllers
             Employee obj = _employeeRepository.GetEmployee(10);
             //this we are using because it's provided by base Controller class which is availiable for this HomeController
             return View(obj);
+
+            //If We have inside Views folder only & of same methodname
+            //return View("Test");
+
+            //If we have a view in some other different folder then we have to pass path inside view ( return View("MyViews/myview.cshtml"); ) or ( return View("~/MyViews/myview.cshtml"); ) or ( return View("../MyViews/myview.cshtml"); )
+            // This is an absolute file path 
+            //return View("MyViews/myview.cshtml");
+
+            //return View("../MyViews/myview.cshtml"); ( Here this .means take up at one level in heirarchy ) ( no of times u have to mentioned . , no of levels u wanna up )
+
         }
     }
 }
