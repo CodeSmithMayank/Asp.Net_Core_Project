@@ -43,6 +43,7 @@ app.MapStaticAssets();
 //app.UseMvcWithDefaultRoute();
 
 app.MapControllerRoute(
+    /*this name can be anything*/
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();

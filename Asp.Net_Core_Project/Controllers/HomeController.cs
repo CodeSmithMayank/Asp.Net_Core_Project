@@ -39,9 +39,9 @@ namespace Asp.Net_Core_Project.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        public ViewResult GetEmployeeDataMethod()
+        public ViewResult GetEmployeeDataMethod(int id)
         {
-            Employee obj = _employeeRepository.GetEmployee(10);
+            Employee obj = _employeeRepository.GetEmployee(id);
             ViewData["EmpData"] = obj;
             ViewData["pagetitle"] = "Employee Details";
             ViewBag.P1 = "This is a view of GetEmployeeDataMethod";
