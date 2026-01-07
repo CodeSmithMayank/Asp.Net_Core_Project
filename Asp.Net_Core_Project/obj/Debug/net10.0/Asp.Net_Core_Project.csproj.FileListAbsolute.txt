@@ -97,3 +97,4 @@ C:\Users\Mayank\Desktop\Asp.Net_Core_Project\Asp.Net_Core_Project\obj\Debug\net1
 C:\Users\Mayank\Desktop\Asp.Net_Core_Project\Asp.Net_Core_Project\obj\Debug\net10.0\Asp.Net_Core_Project.genruntimeconfig.cache
 C:\Users\Mayank\Desktop\Asp.Net_Core_Project\Asp.Net_Core_Project\obj\Debug\net10.0\ref\Asp.Net_Core_Project.dll
 C:\Users\Mayank\Desktop\Asp.Net_Core_Project\Asp.Net_Core_Project\obj\Debug\net10.0\Asp.Net_Core_Project.sourcelink.json
+C:\Users\Mayank\Desktop\Asp.Net_Core_Project\Asp.Net_Core_Project\obj\Debug\net10.0\compressed\7s1522exof-{0}-3r8b2a0bt1-3r8b2a0bt1.gz

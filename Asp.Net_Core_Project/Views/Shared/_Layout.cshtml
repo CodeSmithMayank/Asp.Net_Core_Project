@@ -36,6 +36,13 @@
             @RenderBody()
         </main>
     </div>
+    
+    @*To display section over here  ( @RenderSection("mysection") ) or ( @RenderSection("mysection" , required:false) or (@RenderSection("mysection" , required:false)  )  *@
+    @if (IsSectionDefined("mysection"))
+    {
+        @RenderSection("mysection", required: false)
+    }
+    
 
     <footer class="border-top footer text-muted">
         <div class="container">
