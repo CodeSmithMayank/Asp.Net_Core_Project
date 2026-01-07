@@ -1,6 +1,5 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
-wwwroot\js\CustomJavascript.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -62,6 +61,7 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\js\CustomJavascript.js
 C:\Users\Mayank\Desktop\Asp.Net_Core_Project\Asp.Net_Core_Project\wwwroot\css\site.css
 C:\Users\Mayank\Desktop\Asp.Net_Core_Project\Asp.Net_Core_Project\wwwroot\favicon.ico
 C:\Users\Mayank\Desktop\Asp.Net_Core_Project\Asp.Net_Core_Project\wwwroot\js\site.js

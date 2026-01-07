@@ -5,6 +5,7 @@ using System.Diagnostics;
 
 namespace Asp.Net_Core_Project.Controllers
 {
+    [Route("[controller]/[action]")]
     public class HomeController : Controller
     {
         //This HomeController is not creating an instance of IEmployeeRepository using new keyword
@@ -23,6 +24,25 @@ namespace Asp.Net_Core_Project.Controllers
 
 
         }
+
+        [Route("MethodM1")]
+        public ViewResult MethodM1()
+        {
+            return View();
+        }
+
+        [Route("[action]")]
+        public ViewResult MethodM2()
+        {
+            return View();
+        }
+        // this is something what attribute routing is
+
+        [Route("")]
+        [Route("Home")]
+        [Route("Home/Index")]
+
+        //Here above route means from all of three above whatever url we will hit , then this Index method will call
         public IActionResult Index()
         {
             return View();
@@ -39,6 +59,8 @@ namespace Asp.Net_Core_Project.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
+        //Route attribute with parameter
+        [Route("Home/GetEmployeeDataMethod/{id}")]
         public ViewResult GetEmployeeDataMethod(int id)
         {
             Employee obj = _employeeRepository.GetEmployee(id);
